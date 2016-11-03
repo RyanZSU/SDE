@@ -1,0 +1,26 @@
+term screen-256color
+term xterm
+
+defscrollback 10000
+
+# status line at the bottom
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "${-}%{.0c}%-w%{.y0}%f%n %t%{-}%+w %=%{..G}[%H] %{..Y} %D %M %d, %Y %c | Load: %l"
+caption splitonly "%{.yK}%3n t"
+caption string "%{.c0}%3n %t"
+
+vbell off
+
+# Fix fullscreen programs
+altscreen on
+
+# Change the xterm initialization string from is2=\E[!p\E[?3;4l\E[4l\E>
+# (This fixes the "Aborted because of window size change" konsole symptoms found
+#  in bug #134198)
+termcapinfo xterm* 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
+termcapinfo xterm ti@:te@
+
+backtick 1 0 0 date +%Y%m%d_%H%M%S
+logfile '/home/rtan/tmp/screenlog/screen_%1`_%t_%n.log'
+
