@@ -19,7 +19,7 @@ altscreen on
 # (This fixes the "Aborted because of window size change" konsole symptoms found
 #  in bug #134198)
 termcapinfo xterm* 'is=\E[r\E[m\E[2J\E[H\E[?7h\E[?1;4;6l'
-termcapinfo xterm ti@:te@
+termcapinfo xterm* ti@:te@
 
 backtick 1 0 0 date +%Y%m%d_%H%M%S
 logfile '/home/rtan/tmp/screenlog/screen_%1`_%t_%n.log'
