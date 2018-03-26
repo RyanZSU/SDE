@@ -66,7 +66,7 @@ set incsearch
 " such, it may be a good idea to disable them and use the securemodelines
 " script, <http://www.vim.org/scripts/script.php?script_id=1876>.
 " set nomodeline
- 
+set modeline
  
 "------------------------------------------------------------
 " Usability options 
