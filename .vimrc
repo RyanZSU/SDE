@@ -166,3 +166,13 @@ colorscheme molokai
 set cursorline
 set showmatch
 
+set encoding=utf-8
+
+call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+call plug#end()
+
+"let g:airline_powerline_fonts = 1
+let g:airline_symbols_ascii = 1
+

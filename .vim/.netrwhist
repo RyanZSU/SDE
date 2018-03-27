@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/rtan/workspace/.metadata'
-let g:netrw_dirhist_2='/home/rtan/workspace/abtg_nms_4.3.x_dev_rtan/.accurev'
-let g:netrw_dirhist_3='/home/rtan/nms3/NodeUpgrade/STATUS/SGNM20151113105558'
-let g:netrw_dirhist_4='/home/rtan/workspace/abtg_nms_4.3.x_dev_rtan/nms3/install'
-let g:netrw_dirhist_5='/opt/EricssonSGNM-20160229011854'
