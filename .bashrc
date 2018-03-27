@@ -124,3 +124,13 @@ if ! shopt -oq posix; then
   fi
 fi
 
+[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# Setting PATH for Python 3.6
+# The original version is saved in .bash_profile.pysave
+PATH="${PATH}:/Library/Frameworks/Python.framework/Versions/3.6/bin/"
+export PATH
+
+# added by Anaconda3 5.0.1 installer
+#export PATH="/Users/ryantan/anaconda3/bin:$PATH"
+
