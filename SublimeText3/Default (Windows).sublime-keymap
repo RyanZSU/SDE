@@ -1,0 +1,5 @@
+[
+    { "keys": ["ctrl+alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+    { "keys": ["ctrl+delete"], "command": "trim_trailing_white_space" }
+]
