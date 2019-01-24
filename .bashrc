@@ -8,16 +8,19 @@ esac
 ################################# Ryan Changes #################################
 
 export TERM=xterm-256color
+export EDITOR=vi
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 alias ls='ls -G'
-alias scr='screen -aAL'
+alias scr='screen -aAL -t'
 alias scrx='screen -x'
 alias scrls='screen -ls'
 
 alias sshaws='ssh ubuntu@54.201.216.194'
 alias sshgcp='ssh tanjingpan@35.197.86.140'
+
+alias dockerps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}"'
 
 bind Space:magic-space
 
