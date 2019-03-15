@@ -62,4 +62,4 @@ sudo apt install shadowsocks-libev -y
 sudo cp /home/$USERNAME/data/shadowsocks/config.json /etc/shadowsocks-libev/config.json
 sudo systemctl restart shadowsocks-libev
 
-
+sudo timedatectl set-timezone Asia/Chongqing
